@@ -1,0 +1,20 @@
+.dashboard{
+     display: grid;
+    place-items: center; 
+    overflow: auto;
+    color: white;
+    z-index: 50;
+    position: relative;
+    max-height: 100vh;
+    padding: 7px;
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-width: 100%;
+}
+h1{
+    margin :0 auto;
+    font-size: 40px;
+}
