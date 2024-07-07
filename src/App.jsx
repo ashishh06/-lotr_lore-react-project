@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Dashboard from './components/Dashboard'
+import bgimage from './assets/bg-img.jpg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +11,7 @@ function App() {
   return (
     <div className='App'>
       <main>
-       <img src="https://rare-gallery.com/uploads/posts/571439-the-lord-of.jpg" alt="" className='bg-image'/>
+       <img src={bgimage} alt="" className='bg-image'/>
         <Dashboard/>
       </main>     
     </div>
