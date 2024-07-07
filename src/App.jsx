@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='App'>
       <main>
-       <img src="src/assets/bg-img.jpg" alt="" className='bg-image'/>
+       <img src="https://rare-gallery.com/uploads/posts/571439-the-lord-of.jpg" alt="" className='bg-image'/>
         <Dashboard/>
       </main>     
     </div>
